@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<workflow>
+  <name>Show/Hide Hidden Files</name>
+  <version>1.0</version>
+  <bundle>net.level3studios.showhidefiles</bundle>
+  <updated>1530811253</updated>
+  <file>showhide_hidden_files.alfredworkflow</file>
+</workflow>

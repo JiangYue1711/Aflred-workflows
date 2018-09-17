@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<workflow>
+  <name>Fullscreen app</name>
+  <version>2.0</version>
+  <bundle>fr.ketouem.alfred.fullscreen</bundle>
+  <updated>1524572654</updated>
+  <file>fullscreen-app.alfredworkflow</file>
+</workflow>
