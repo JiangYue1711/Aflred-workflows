@@ -60,6 +60,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>727B22EA-E42C-4C42-A65A-C34B04D5F76A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0AE6D55B-156C-4462-A45C-56992C2DF0D7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C4C89A48-3386-4A09-9B63-5E4BE8FFDFA8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>727B22EA-E42C-4C42-A65A-C34B04D5F76A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>jiangyue</string>
@@ -71,6 +97,27 @@
 	<string>Xcode Quick Actions</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>openletvmaster</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>letvObjcMaster</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -93,27 +140,6 @@
 			<string>16039760-F173-4AB8-9C73-DA7401D5DE23</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>open-letv-master</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>letvObjcMaster</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -142,7 +168,7 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>open-letv-flutter</string>
+				<string>openletvflutter</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -180,6 +206,71 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>opensimctl</string>
+				<key>subtext</key>
+				<string>打开当前的模拟器</string>
+				<key>text</key>
+				<string>openCurrentSimctl</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C4C89A48-3386-4A09-9B63-5E4BE8FFDFA8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>727B22EA-E42C-4C42-A65A-C34B04D5F76A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>当前模拟器已打开</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>0AE6D55B-156C-4462-A45C-56992C2DF0D7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -188,37 +279,58 @@
 		<key>093DEBD9-78FD-42A6-B1D8-19684C3CC925</key>
 		<dict>
 			<key>xpos</key>
-			<integer>540</integer>
+			<integer>500</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>110</integer>
+		</dict>
+		<key>0AE6D55B-156C-4462-A45C-56992C2DF0D7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>490</integer>
+			<key>ypos</key>
+			<integer>310</integer>
 		</dict>
 		<key>16039760-F173-4AB8-9C73-DA7401D5DE23</key>
 		<dict>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>260</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>60</integer>
 		</dict>
 		<key>1AAF18E1-7DA5-4756-A71F-789AA65ED235</key>
 		<dict>
 			<key>xpos</key>
 			<integer>260</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>180</integer>
 		</dict>
 		<key>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>60</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>60</integer>
 		</dict>
 		<key>714FA2A6-AF68-44C3-957B-12674212BA60</key>
 		<dict>
 			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>727B22EA-E42C-4C42-A65A-C34B04D5F76A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>310</integer>
+		</dict>
+		<key>C4C89A48-3386-4A09-9B63-5E4BE8FFDFA8</key>
+		<dict>
+			<key>xpos</key>
 			<integer>50</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>310</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
