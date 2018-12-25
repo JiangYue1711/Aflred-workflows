@@ -72,6 +72,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>show f</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>显示隐藏文件</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>532DE853-3008-4C52-A9C1-725CDBC1A555</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -92,27 +113,6 @@ killall Finder</string>
 			<string>6BAAA5F7-6095-4BBA-AF86-3F591B989457</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>show f</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>显示隐藏文件</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>532DE853-3008-4C52-A9C1-725CDBC1A555</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -238,14 +238,14 @@ This simple workflow will use Finder (if it's not the currently selected applica
 		<key>6CC10E4C-C987-46BA-8211-FA515A49C277</key>
 		<dict>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>460</integer>
 			<key>ypos</key>
 			<integer>190</integer>
 		</dict>
 		<key>73BA13B0-E0A8-4BCE-887D-A7A98235ED3D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>120</integer>
+			<integer>130</integer>
 			<key>ypos</key>
 			<integer>190</integer>
 		</dict>
