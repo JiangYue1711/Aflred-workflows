@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>jiangyue.club</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>16039760-F173-4AB8-9C73-DA7401D5DE23</key>
@@ -60,13 +62,13 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>jiangyue</string>
 	<key>description</key>
-	<string></string>
+	<string>Xcode 快捷操作</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Keyword to Script</string>
+	<string>Xcode Quick Actions</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -220,6 +222,6 @@
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>www.jiangyue.club.com</string>
 </dict>
 </plist>
